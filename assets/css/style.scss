@@ -1,0 +1,372 @@
+---
+---
+/* Catppuccin Mocha + Fira Mono. Replaces minima's stylesheet entirely,
+   so the minima markup (header, nav, footer) is styled here. */
+
+@import url("https://fonts.googleapis.com/css2?family=Fira+Mono:wght@400;500;700&display=swap");
+
+:root {
+  color-scheme: dark;
+
+  --rosewater: #f5e0dc;
+  --flamingo: #f2cdcd;
+  --pink: #f5c2e7;
+  --mauve: #cba6f7;
+  --red: #f38ba8;
+  --maroon: #eba0ac;
+  --peach: #fab387;
+  --yellow: #f9e2af;
+  --green: #a6e3a1;
+  --teal: #94e2d5;
+  --sky: #89dceb;
+  --sapphire: #74c7ec;
+  --blue: #89b4fa;
+  --lavender: #b4befe;
+  --text: #cdd6f4;
+  --subtext1: #bac2de;
+  --subtext0: #a6adc8;
+  --overlay2: #9399b2;
+  --overlay1: #7f849c;
+  --overlay0: #6c7086;
+  --surface2: #585b70;
+  --surface1: #45475a;
+  --surface0: #313244;
+  --base: #1e1e2e;
+  --mantle: #181825;
+  --crust: #11111b;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 16px;
+}
+
+body {
+  margin: 0;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  background: var(--base);
+  color: var(--text);
+  font-family: "Fira Mono", ui-monospace, Menlo, monospace;
+  font-weight: 400;
+  line-height: 1.6;
+  overflow-wrap: break-word;
+  -webkit-text-size-adjust: 100%;
+}
+
+::selection {
+  background: var(--surface2);
+  color: var(--text);
+}
+
+.wrapper {
+  max-width: 680px;
+  margin: 0 auto;
+  padding: 0 16px;
+}
+
+/* ── header ─────────────────────────────────────────────── */
+
+.site-header {
+  border-bottom: 1px solid var(--surface0);
+  padding: 24px 0;
+}
+
+.site-header .wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 12px 24px;
+}
+
+.site-title {
+  color: var(--mauve);
+  font-weight: 700;
+  font-size: 1.1rem;
+  text-decoration: none;
+}
+
+.site-title:hover {
+  color: var(--pink);
+}
+
+.site-nav {
+  position: relative;
+}
+
+#nav-trigger,
+.site-nav .menu-icon {
+  display: none;
+}
+
+.site-nav .trigger {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 4px 18px;
+}
+
+.site-nav .page-link {
+  color: var(--subtext0);
+  text-decoration: none;
+}
+
+.site-nav .page-link:hover {
+  color: var(--lavender);
+}
+
+/* ── content ────────────────────────────────────────────── */
+
+main,
+.page-content {
+  flex: 1;
+}
+
+.page-content {
+  padding: 32px 0 48px;
+}
+
+.post-header {
+  margin-bottom: 24px;
+}
+
+.post-title,
+.page-heading {
+  color: var(--lavender);
+  font-size: 1.6rem;
+  font-weight: 700;
+  line-height: 1.25;
+  margin: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: 700;
+  line-height: 1.3;
+  margin: 2em 0 0.6em;
+}
+
+h1 { color: var(--lavender); font-size: 1.5rem; }
+h2 { color: var(--mauve); font-size: 1.25rem; }
+h3 { color: var(--blue); font-size: 1.1rem; }
+h4,
+h5,
+h6 { color: var(--teal); font-size: 1rem; }
+
+p,
+ul,
+ol,
+blockquote,
+pre,
+table,
+figure,
+dl {
+  margin: 0 0 1.1em;
+}
+
+strong {
+  color: var(--rosewater);
+  font-weight: 700;
+}
+
+em {
+  color: var(--flamingo);
+}
+
+a {
+  color: var(--blue);
+  text-decoration: underline;
+  text-decoration-color: var(--surface2);
+  text-underline-offset: 3px;
+}
+
+a:hover {
+  color: var(--sapphire);
+  text-decoration-color: currentColor;
+}
+
+ul,
+ol {
+  padding-left: 1.4em;
+}
+
+li {
+  margin-bottom: 0.3em;
+}
+
+li::marker {
+  color: var(--overlay1);
+}
+
+hr {
+  border: 0;
+  border-top: 1px solid var(--surface1);
+  margin: 2em 0;
+}
+
+blockquote {
+  border-left: 3px solid var(--mauve);
+  background: var(--mantle);
+  color: var(--subtext1);
+  padding: 10px 16px;
+  border-radius: 0 6px 6px 0;
+}
+
+blockquote p:last-child {
+  margin-bottom: 0;
+}
+
+blockquote strong {
+  color: var(--peach);
+}
+
+code {
+  font-family: inherit;
+  font-size: 0.92em;
+  color: var(--peach);
+  background: var(--surface0);
+  padding: 1px 6px;
+  border-radius: 4px;
+}
+
+pre {
+  background: var(--mantle);
+  border: 1px solid var(--surface0);
+  border-radius: 6px;
+  padding: 12px 14px;
+  overflow-x: auto;
+  line-height: 1.5;
+}
+
+pre code {
+  background: none;
+  padding: 0;
+  color: var(--text);
+  font-size: 0.875rem;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 0.95rem;
+}
+
+th,
+td {
+  text-align: left;
+  padding: 6px 10px;
+  border-bottom: 1px solid var(--surface0);
+  vertical-align: top;
+}
+
+th {
+  color: var(--subtext1);
+  border-bottom-color: var(--surface1);
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+/* ── footer ─────────────────────────────────────────────── */
+
+.site-footer {
+  border-top: 1px solid var(--surface0);
+  padding: 24px 0;
+  color: var(--overlay1);
+  font-size: 0.9rem;
+}
+
+.footer-col-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px 32px;
+}
+
+.footer-col {
+  flex: 1 1 260px;
+}
+
+.footer-col p,
+.contact-list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.site-footer a {
+  color: var(--subtext0);
+}
+
+.site-footer a:hover {
+  color: var(--lavender);
+}
+
+.social-links {
+  margin-top: 12px;
+}
+
+.social-links a {
+  margin-right: 12px;
+}
+
+/* ── narrow screens: collapse nav behind the menu icon ─── */
+
+@media (max-width: 600px) {
+  .site-header .wrapper {
+    flex-wrap: nowrap;
+  }
+
+  .site-nav .menu-icon {
+    display: block;
+    position: relative;
+    width: 26px;
+    height: 2px;
+    margin: 8px 0 8px 0;
+    background: var(--subtext1);
+    cursor: pointer;
+  }
+
+  .site-nav .menu-icon::before,
+  .site-nav .menu-icon::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    width: 26px;
+    height: 2px;
+    background: var(--subtext1);
+  }
+
+  .site-nav .menu-icon::before { top: -7px; }
+  .site-nav .menu-icon::after { top: 7px; }
+
+  .site-nav .trigger {
+    display: none;
+    position: absolute;
+    right: 0;
+    top: 36px;
+    z-index: 10;
+    flex-direction: column;
+    gap: 10px;
+    min-width: 180px;
+    padding: 12px 16px;
+    background: var(--mantle);
+    border: 1px solid var(--surface1);
+    border-radius: 6px;
+  }
+
+  #nav-trigger:checked ~ .trigger {
+    display: flex;
+  }
+}
