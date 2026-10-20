@@ -65,12 +65,12 @@ This is my beefiest (in terms of power) handleld that isn't the SteamDeck. It's 
 
 What you _can_ do with a 16:9 screen though is play a DS game with the top screen beside the smaller bottom screen. 
 
-**Great for:** [fifth](/lists/console-generations/#th-generation-19932006) and [sixth](/lists/console-generations/#th-generation-19982013) generation games; DS games; being a one-stop powerhouse if this is going to be your only device.
+**Great for:** [fifth](/lists/console-generations/#5th-generation-19932006) and [sixth](/lists/console-generations/#6th-generation-19982013) generation games; DS games; being a one-stop powerhouse if this is going to be your only device.
 
 ### Anbernic RG Cube
 The cube sports a 1:1 screen, which makes it one of the best-suited handhelds I have for DS games, and a great fit for 3:4. 
 
-**Great for:** [fifth](/lists/console-generations/#th-generation-19932006) generation games; DS games.
+**Great for:** [fifth](/lists/console-generations/#5th-generation-19932006) generation games; DS games.
 
 ## Linux-Based Handhelds
 
