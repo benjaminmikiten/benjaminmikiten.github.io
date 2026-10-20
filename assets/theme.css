@@ -139,6 +139,7 @@ a.tag:hover { color: var(--text); box-shadow: var(--glow); }
 }
 
 /* ---------- Prose ---------- */
+.prose { overflow-wrap: break-word; }
 .prose > * { margin-top: 0; margin-bottom: 1.35em; }
 .prose h1, .prose h2, .prose h3, .prose h4, .prose h5 { line-height: 1.25; letter-spacing: -0.01em; scroll-margin-top: 1.5rem; }
 .prose h1 { font-size: 1.875rem; font-weight: 700; color: var(--mauve); margin: 2.2em 0 .7em; }
@@ -153,7 +154,6 @@ a.tag:hover { color: var(--text); box-shadow: var(--glow); }
   color: var(--sapphire); text-decoration: underline;
   text-decoration-color: color-mix(in srgb, var(--sapphire) 40%, transparent);
   text-decoration-thickness: 1px; text-underline-offset: .22em; transition: text-decoration-color .15s;
-  overflow-wrap: anywhere;
 }
 .prose a:hover { text-decoration-color: currentColor; }
 .prose :is(h1, h2, h3, h4, h5) code { background: none; padding: 0; font-size: .92em; }
