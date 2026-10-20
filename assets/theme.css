@@ -142,8 +142,8 @@ a.tag:hover { color: var(--text); box-shadow: var(--glow); }
 .prose { overflow-wrap: break-word; }
 .prose > * { margin-top: 0; margin-bottom: 1.35em; }
 .prose h1, .prose h2, .prose h3, .prose h4, .prose h5 { line-height: 1.25; letter-spacing: -0.01em; scroll-margin-top: 1.5rem; }
-.prose h1 { font-size: 1.875rem; font-weight: 700; color: var(--mauve); margin: 2.2em 0 .7em; }
-.prose h2 { font-size: 1.625rem; font-weight: 600; color: var(--blue); margin: 2.2em 0 .7em; }
+/* Page title is the only h1; any stray body h1 renders as a section heading. */
+.prose h1, .prose h2 { font-size: 1.625rem; font-weight: 600; color: var(--blue); margin: 2.2em 0 .7em; }
 .prose h3 { font-size: 1.3125rem; font-weight: 600; color: var(--green); margin: 2em 0 .6em; }
 .prose h4, .prose h5 { font-size: 1.125rem; font-weight: 600; color: var(--peach); margin: 1.8em 0 .5em; }
 .prose > :first-child { margin-top: 0; }

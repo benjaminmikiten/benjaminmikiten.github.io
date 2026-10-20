@@ -9,7 +9,7 @@ redirect_from:
   - /About Work Me
 ---
 
-# Education
+## Education
 
 I studied at Texas State University, receiving a BFA Communication Design -- not your typical Software Engineer's degree. Self-taught, I spent a lot of my career embarrassed of my degree, and worrying about everything I hadn't known to teach myself that I would have gotten for free with a BS.
 
@@ -17,7 +17,7 @@ Ultimately, that hasn't really mattered. If anything, I'd suggest more engineers
 
 A key component to working in this industry is making yourself understood. And as a visual thinker, I can't help but see that *visual communication* is _crucial_ to conveying the heavily-technical concepts I've needed to sell ideas to stakeholders an support and grow a teams of engineers.
 
-# History
+## History
 
 I've been building websites for money since 2013.
 
@@ -39,7 +39,7 @@ As the team matured to be more self-sufficient and I had engineers I could rely 
 
 As my role expanded outside of _just_ my product, I was promoted to Staff Engineer. I still contribute heavily to Marketplace, as my heart is stuck with this particular product, and act as Software Architect for the product, involved in planning and designing high-level technical strategy for the product, often several Qs ahead of time. 
 
-# Technical Leadership
+## Technical Leadership
 I most often wear the technical leadership hat, finding myself gluing disparate parts of teams and products together to lead them to a successful outcome.
 
 I'm an eager and successful collaborator with our partners in Product, and will always have a soft spot for Product Design from my agency days.
@@ -50,7 +50,7 @@ I'm extremely familiar with working in a Scrum Agile fashion, including leading 
 
 We follow Domain-Driven Design principles, and I recently began running Event Storming workshops.
 
-# Technical Skills
+## Technical Skills
 
 The longer I've been an engineer, the better I've come to understand that the essence of being an engineer is figuring out how to solve problems. 
 
@@ -60,13 +60,13 @@ I started as a Front-End engineer, but now consider myself a Full-Stack engineer
 
 The products I've worked on have included server-side rendered SEO-heavy front ends backed by RESTful Node and highly Object-Oriented PHP microservices. These are deployed onto an EKS cluster. 
 
-## Front End, TS, React, Next.JS
+### Front End, TS, React, Next.JS
 That said, I'm generally working in **Typescript** and **React**. **Front End development** is my specialty, and as soon as I list that I'm generally building with **Next.JS** and **Tailwind** these days, something new will come out.
 
-## Back End, PHP, Node, SQL
+### Back End, PHP, Node, SQL
 My product is PHP-heavy, (with some Node middleware mixed in) and so I'm also proficient with PHP, SQL and other related technologies. Nobody wants to talk about it, but PHP still rules.
 
-## DevOps, CI/CD, AWS
+### DevOps, CI/CD, AWS
 I'm often my products de facto DevOps guy, and am a confident and steady hand working with Docker, K8S, Helm, and Gitlab CI/CD pipelines.
 
 I have extensive experience with AWS tools including EKS, ECR, S3, SES, RDS, R53, and others. I'm preparing to take the Cloud Architect Associate exam.
