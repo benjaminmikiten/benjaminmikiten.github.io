@@ -1,6 +1,7 @@
 ---
 title: "On Using AI as a Software Engineer"
 layout: page
+section: essays
 permalink: /essays/on-using-ai-as-a-software-engineer/
 redirect_from:
   - /Essays/On+Using+AI+as+a+Software+Engineer

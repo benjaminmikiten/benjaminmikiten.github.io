@@ -1,6 +1,7 @@
 ---
 title: "Anbernic New RG35XX Secret Revision"
 layout: page
+section: guides
 permalink: /guides/anbernic-new-rg35xx-secret-revision/
 redirect_from:
   - /Guides/Anbernic+New+RG35XX+Secret+Revision

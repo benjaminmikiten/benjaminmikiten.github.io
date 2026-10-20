@@ -1,6 +1,7 @@
 ---
 title: "Gameboy Color DC-DC Board"
 layout: page
+section: guides
 permalink: /guides/gameboy-color-dc-dc-board/
 redirect_from:
   - /Guides/Gameboy+Color+DC-DC+Board

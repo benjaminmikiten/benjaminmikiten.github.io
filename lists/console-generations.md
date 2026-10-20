@@ -1,6 +1,7 @@
 ---
 title: "Console Generations"
 layout: page
+section: lists
 permalink: /lists/console-generations/
 redirect_from:
   - /Lists/Console+Generations

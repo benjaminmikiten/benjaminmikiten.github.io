@@ -1,0 +1,15 @@
+---
+layout: default
+---
+<article class="article">
+  <header class="article-header">
+    {%- if page.section %}
+    <a class="chip" href="{{ '/' | append: page.section | append: '/' | relative_url }}">{{ page.section | capitalize }}</a>
+    {%- endif %}
+    <h1>{{ page.title }}</h1>
+    <p class="meta">{{ content | strip_html | number_of_words | divided_by: 220 | plus: 1 }} min read</p>
+  </header>
+  <div class="prose">
+    {{ content }}
+  </div>
+</article>

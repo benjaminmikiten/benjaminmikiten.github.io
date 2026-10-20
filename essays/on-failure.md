@@ -1,6 +1,7 @@
 ---
 title: "On Failure"
 layout: page
+section: essays
 permalink: /essays/on-failure/
 redirect_from:
   - /Essays/On+Failure

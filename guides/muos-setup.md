@@ -1,6 +1,7 @@
 ---
 title: "MuOS Setup"
 layout: page
+section: guides
 permalink: /guides/muos-setup/
 redirect_from:
   - /Guides/MuOS+Setup

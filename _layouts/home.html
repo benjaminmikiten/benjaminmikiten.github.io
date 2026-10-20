@@ -1,0 +1,18 @@
+---
+layout: default
+---
+<section class="hero">
+  <p class="eyebrow">Notes, guides &amp; essays</p>
+  <h1 class="hero-title">I write things down.</h1>
+</section>
+
+<ul class="cards sections">
+  <li><a class="card" data-section="essays" href="{{ '/essays/' | relative_url }}"><h2>Essays</h2><p class="meta">Longer pieces on work and getting hired</p></a></li>
+  <li><a class="card" data-section="guides" href="{{ '/guides/' | relative_url }}"><h2>Guides</h2><p class="meta">Retro hardware, setup, and tools</p></a></li>
+  <li><a class="card" data-section="lists" href="{{ '/lists/' | relative_url }}"><h2>Lists</h2><p class="meta">Recommendations and comparisons</p></a></li>
+  <li><a class="card" data-section="books" href="{{ '/books/' | relative_url }}"><h2>Books</h2><p class="meta">What's on the shelf</p></a></li>
+</ul>
+
+<div class="prose intro">
+  {{ content }}
+</div>

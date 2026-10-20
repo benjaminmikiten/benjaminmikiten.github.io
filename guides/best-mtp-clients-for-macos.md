@@ -1,6 +1,7 @@
 ---
 title: "Best MTP Clients for MacOS"
 layout: page
+section: guides
 permalink: /guides/best-mtp-clients-for-macos/
 redirect_from:
   - /Guides/Best+MTP+Clients+for+MacOS

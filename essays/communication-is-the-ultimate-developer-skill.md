@@ -1,6 +1,7 @@
 ---
 title: "Communication is the Ultimate Developer Skill"
 layout: page
+section: essays
 permalink: /essays/communication-is-the-ultimate-developer-skill/
 redirect_from:
   - /Essays/Communication+is+the+Ultimate+Developer+Skill

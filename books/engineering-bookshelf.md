@@ -1,6 +1,7 @@
 ---
 title: "Engineering Bookshelf"
 layout: page
+section: books
 permalink: /books/engineering-bookshelf/
 redirect_from:
   - /Books/Engineering+Bookshelf

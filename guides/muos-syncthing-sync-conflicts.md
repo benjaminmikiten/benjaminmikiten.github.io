@@ -1,6 +1,7 @@
 ---
 title: "MuOS Syncthing Sync Conflicts"
 layout: page
+section: guides
 permalink: /guides/muos-syncthing-sync-conflicts/
 redirect_from:
   - /Guides/MuOS+Syncthing+Sync+Conflicts

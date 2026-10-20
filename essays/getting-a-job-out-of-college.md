@@ -1,6 +1,7 @@
 ---
 title: "Getting a Job Out Of College"
 layout: page
+section: essays
 permalink: /essays/getting-a-job-out-of-college/
 redirect_from:
   - /Essays/Getting+a+Job+Out+Of+College

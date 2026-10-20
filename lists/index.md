@@ -1,10 +1,7 @@
 ---
 title: "Lists"
-layout: page
+description: "Recommendations and comparisons, mostly about retro handhelds."
+layout: section
+section: lists
 permalink: /lists/
 ---
-
-- [Console Generations](/lists/console-generations/)
-- [Favored Emulators for Each Console](/lists/favored-emulators-for-each-console/)
-- [Recommended Retro Handheld Mods](/lists/recommended-retro-handheld-mods/)
-- [Retro Handhelds](/lists/retro-handhelds/)

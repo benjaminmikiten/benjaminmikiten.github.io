@@ -1,6 +1,7 @@
 ---
 title: "There Are No Kinds of People"
 layout: page
+section: essays
 permalink: /essays/there-are-no-kinds-of-people/
 redirect_from:
   - /Essays/There+Are+No+Kinds+of+People

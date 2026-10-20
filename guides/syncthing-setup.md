@@ -1,6 +1,7 @@
 ---
 title: "Syncthing Setup"
 layout: page
+section: guides
 permalink: /guides/syncthing-setup/
 redirect_from:
   - /Guides/Syncthing+Setup

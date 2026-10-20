@@ -1,6 +1,7 @@
 ---
 title: "Interviews, and Getting Hired"
 layout: page
+section: essays
 permalink: /essays/interviews-and-getting-hired/
 redirect_from:
   - /Essays/Interviews,+and+Getting+Hired

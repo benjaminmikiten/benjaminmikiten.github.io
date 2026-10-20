@@ -1,6 +1,7 @@
 ---
 title: "Dumping Gameboy Cartridges"
 layout: page
+section: guides
 permalink: /guides/dumping-gameboy-cartridges/
 redirect_from:
   - /Guides/Dumping+Gameboy+Cartridges

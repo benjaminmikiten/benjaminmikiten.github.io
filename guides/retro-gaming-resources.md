@@ -1,6 +1,7 @@
 ---
 title: "Retro Gaming Resources"
 layout: page
+section: guides
 permalink: /guides/retro-gaming-resources/
 redirect_from:
   - /Guides/Retro+Gaming+Resources

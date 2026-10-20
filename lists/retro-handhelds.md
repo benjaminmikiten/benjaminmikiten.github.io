@@ -1,6 +1,7 @@
 ---
 title: "Retro Handhelds"
 layout: page
+section: lists
 permalink: /lists/retro-handhelds/
 redirect_from:
   - /Lists/Retro+Handhelds

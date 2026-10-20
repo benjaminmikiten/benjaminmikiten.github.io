@@ -1,6 +1,7 @@
 ---
 title: "MuOS Core Reassignment"
 layout: page
+section: guides
 permalink: /guides/muos-core-reassignment/
 redirect_from:
   - /Guides/MuOS+Core+Reassignment

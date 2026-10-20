@@ -1,6 +1,7 @@
 ---
 title: "How to Become Easily Replaceable"
 layout: page
+section: essays
 permalink: /essays/how-to-become-easily-replaceable/
 redirect_from:
   - /Essays/How+to+Become+Easily+Replaceable

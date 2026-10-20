@@ -1,7 +1,7 @@
 ---
 title: "Books"
-layout: page
+description: "What's on the shelf."
+layout: section
+section: books
 permalink: /books/
 ---
-
-- [Engineering Bookshelf](/books/engineering-bookshelf/)

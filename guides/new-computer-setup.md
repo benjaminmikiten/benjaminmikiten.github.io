@@ -1,6 +1,7 @@
 ---
 title: "New Computer Setup"
 layout: page
+section: guides
 permalink: /guides/new-computer-setup/
 redirect_from:
   - /Guides/New+Computer+Setup

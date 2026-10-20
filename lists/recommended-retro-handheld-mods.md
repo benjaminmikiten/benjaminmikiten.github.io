@@ -1,6 +1,7 @@
 ---
 title: "Recommended Retro Handheld Mods"
 layout: page
+section: lists
 permalink: /lists/recommended-retro-handheld-mods/
 redirect_from:
   - /Lists/Recommended+Retro+Handheld+Mods

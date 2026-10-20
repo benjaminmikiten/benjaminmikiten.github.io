@@ -1,6 +1,7 @@
 ---
 title: "Buying and Repairing Broken GBCs"
 layout: page
+section: guides
 permalink: /guides/buying-and-repairing-broken-gbcs/
 redirect_from:
   - /Guides/Buying+and+Repairing+Broken+GBCs

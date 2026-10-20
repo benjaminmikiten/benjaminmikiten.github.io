@@ -1,6 +1,7 @@
 ---
 title: "On Shortcuts"
 layout: page
+section: essays
 permalink: /essays/on-shortcuts/
 redirect_from:
   - /Essays/On+Shortcuts

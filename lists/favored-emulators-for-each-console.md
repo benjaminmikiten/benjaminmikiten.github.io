@@ -1,6 +1,7 @@
 ---
 title: "Favored Emulators for Each Console"
 layout: page
+section: lists
 permalink: /lists/favored-emulators-for-each-console/
 redirect_from:
   - /Lists/Favored+Emulators+for+Each+Console

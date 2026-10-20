@@ -1,6 +1,7 @@
 ---
 title: "FunnyPlaying MidnightTrace V2 Troubleshooting"
 layout: page
+section: guides
 permalink: /guides/funnyplaying-midnighttrace-v2-troubleshooting/
 redirect_from:
   - /Guides/FunnyPlaying+MidnightTrace+V2+Troubleshooting

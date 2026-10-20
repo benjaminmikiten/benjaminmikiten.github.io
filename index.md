@@ -1,10 +1,9 @@
 ---
-title: "Ben Mikiten"
-layout: page
+layout: home
 permalink: /
 ---
 
-I'm Ben Mikiten, Staff Engineer and Sr. AI Enablement Manager at Storable. I write things down. 
+I'm a staff engineer and Sr. AI Enablement Manager at Storable.
 
 [About Me](/about-me/) and [About Work Me](/about-work-me/)
 
@@ -12,7 +11,7 @@ I'm Ben Mikiten, Staff Engineer and Sr. AI Enablement Manager at Storable. I wri
 
 
 
-# About this site
+## About this site
 
 Websites were most fun back when we just had flat HTML files linked together on which we collected our favorite bands, movies, and books for the world. 
 
