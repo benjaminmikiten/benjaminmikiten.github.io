@@ -1,0 +1,15 @@
+title: Ben Mikiten
+description: Staff Engineer and Sr. AI Enablement Manager. I write things down.
+url: "https://b.mktn.io"
+theme: minima
+plugins:
+  - jekyll-redirect-from
+exclude:
+  - README.md
+header_pages:
+  - essays/index.md
+  - guides/index.md
+  - lists/index.md
+  - books/index.md
+  - about-me.md
+  - resume.md
