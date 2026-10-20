@@ -1,13 +1,27 @@
+{%- assign url_parts = page.url | split: '/' -%}
 <header class="site-header">
   <div class="wrap header-inner">
-    <a class="brand" href="{{ '/' | relative_url }}" aria-label="Home">BM</a>
+    <nav class="crumb" aria-label="Breadcrumb">
+      <a class="crumb-home" href="{{ '/' | relative_url }}">~/ben</a>
+      {%- assign path = '' -%}
+      {%- for part in url_parts -%}
+        {%- if part != '' -%}
+          {%- assign path = path | append: '/' | append: part -%}
+          <span class="sep">/</span>
+          {%- if forloop.last -%}
+          <span aria-current="page">{{ part | downcase }}</span>
+          {%- else -%}
+          <a href="{{ path | append: '/' | relative_url }}">{{ part | downcase }}</a>
+          {%- endif -%}
+        {%- endif -%}
+      {%- endfor -%}
+    </nav>
     <nav class="nav" aria-label="Primary">
-      <a data-section="essays" href="{{ '/essays/' | relative_url }}">Essays</a>
-      <a data-section="guides" href="{{ '/guides/' | relative_url }}">Guides</a>
-      <a data-section="lists" href="{{ '/lists/' | relative_url }}">Lists</a>
-      <a data-section="books" href="{{ '/books/' | relative_url }}">Books</a>
-      <a href="{{ '/about-me/' | relative_url }}">About</a>
-      <a href="{{ '/resume/' | relative_url }}">Resume</a>
+      {%- for s in site.data.sections %}
+      <a href="{{ '/' | append: s.id | append: '/' | relative_url }}"{% if page.section == s.id %} aria-current="true"{% endif %}>{{ s.id }}</a>
+      {%- endfor %}
+      <a href="{{ '/about-me/' | relative_url }}"{% if page.url == '/about-me/' %} aria-current="true"{% endif %}>about</a>
+      <button class="theme-toggle" id="theme-toggle" type="button" aria-label="Toggle color theme">[theme]</button>
     </nav>
   </div>
 </header>

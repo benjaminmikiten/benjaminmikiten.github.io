@@ -8,7 +8,7 @@ redirect_from:
   - /Essays/Communication is the Ultimate Developer Skill
 ---
 
-# The Importance of Communication in Software Engineering
+## The Importance of Communication in Software Engineering
 
 Unless you work completely alone, being able to clearly communicate is the single most critical skill in software engineering.
 

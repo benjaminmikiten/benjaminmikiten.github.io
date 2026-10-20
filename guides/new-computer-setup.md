@@ -9,7 +9,7 @@ redirect_from:
 ---
 
 These are the basic steps and tools I install on every machine. This isn't a comprehensive guide, it's just the major steps. YMMV.
-# Basic Tools
+## Basic Tools
 
 Use `Terminal.app` to download `brew` https://brew.sh/
 
@@ -28,7 +28,7 @@ Use `brew` to install fonts
 brew install font-fira-code-nerd-font font-meslo-lg-nerd-font
 ```
 
-# CLI Setup
+## CLI Setup
 
 Install `omz` https://ohmyz.sh/#install
 
@@ -41,7 +41,7 @@ Install `powerlevel10k` using the omz package manager https://ohmyz.sh/#install
 
 Configure `omz` to taste.
 
-# `tmux` Setup
+## `tmux` Setup
 
 Install `tpm` https://github.com/tmux-plugins/tpm?tab=readme-ov-file#installation
 
@@ -78,6 +78,6 @@ run '~/.tmux/plugins/tpm/tpm'
 
 ```
 
-# `neovim` Setup
+## `neovim` Setup
 
 Install LazyVim https://www.lazyvim.org/installation

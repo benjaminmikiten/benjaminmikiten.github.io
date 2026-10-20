@@ -1,15 +1,25 @@
 ---
 layout: default
 ---
-<article class="article">
-  <header class="article-header">
-    {%- if page.section %}
-    <a class="chip" href="{{ '/' | append: page.section | append: '/' | relative_url }}">{{ page.section | capitalize }}</a>
-    {%- endif %}
-    <h1>{{ page.title }}</h1>
-    <p class="meta">{{ content | strip_html | number_of_words | divided_by: 220 | plus: 1 }} min read</p>
-  </header>
-  <div class="prose">
-    {{ content }}
-  </div>
-</article>
+<div class="article-grid">
+  <article class="article">
+    <header class="article-header">
+      {%- if page.section %}
+      <div class="tags"><a class="tag" href="{{ '/' | append: page.section | append: '/' | relative_url }}">{{ page.section }}</a></div>
+      {%- endif %}
+      <h1 class="gradient">{{ page.title }}</h1>
+    </header>
+    <details class="toc-inline" hidden>
+      <summary>contents</summary>
+      <nav class="toc" data-toc aria-label="Table of contents"></nav>
+    </details>
+    <div class="prose" id="prose">
+      {{ content }}
+    </div>
+  </article>
+  <aside class="toc-aside" hidden>
+    <nav class="toc" data-toc aria-label="Table of contents">
+      <p class="toc-title">on this page</p>
+    </nav>
+  </aside>
+</div>

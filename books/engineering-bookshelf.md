@@ -8,7 +8,7 @@ redirect_from:
   - /Books/Engineering Bookshelf
 ---
 
-# Most Used
+## Most Used
 - **Patterns of Enterprise Architecture** – Martin Fowler 
 - **Refactoring** – Martin Fowler
 - **Programming TypeScript** – Boris Cherny
@@ -20,6 +20,6 @@ redirect_from:
 - **Staff Engineer** – Will Larson
 - **An Elegant Puzzle** – Will Larson
 
-# Management, Leadership
+## Management, Leadership
 
-# General Engineering
+## General Engineering

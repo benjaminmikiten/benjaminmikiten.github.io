@@ -1,15 +1,8 @@
 ---
 layout: home
 permalink: /
+intro: "Staff engineer and Sr. AI Enablement Manager at Storable. I write things down. [About me](/about-me/), [about work me](/about-work-me/), [socials](/socials/)."
 ---
-
-I'm a staff engineer and Sr. AI Enablement Manager at Storable.
-
-[About Me](/about-me/) and [About Work Me](/about-work-me/)
-
-[Socials](/socials/)
-
-
 
 ## About this site
 
