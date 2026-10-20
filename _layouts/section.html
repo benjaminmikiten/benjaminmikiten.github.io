@@ -1,21 +1,14 @@
 ---
 layout: default
 ---
-{%- assign items = site.pages | where: "section", page.section | where_exp: "p", "p.layout != 'section'" | sort: "title" -%}
+{%- assign count = site.pages | where: "section", page.section | where_exp: "p", "p.layout != 'section'" | size -%}
 <header class="section-head">
-  <p class="eyebrow">{{ page.section | capitalize }} · {{ items | size }} {% if items.size == 1 %}piece{% else %}pieces{% endif %}</p>
-  <h1>{{ page.title }}</h1>
+  <div class="tags"><span class="tag">{{ page.section }}/</span><span class="tag">{{ count }} {% if count == 1 %}piece{% else %}pieces{% endif %}</span></div>
+  <h1 class="gradient">{{ page.title }}</h1>
   {%- if page.description %}
   <p class="lede">{{ page.description }}</p>
   {%- endif %}
 </header>
-<ul class="cards">
-  {%- for item in items %}
-  <li>
-    <a class="card" href="{{ item.url | relative_url }}">
-      <h2>{{ item.title }}</h2>
-      <p class="meta">{{ item.content | strip_html | number_of_words | divided_by: 220 | plus: 1 }} min read</p>
-    </a>
-  </li>
-  {%- endfor %}
-</ul>
+<div class="index">
+  {% include page-list.html section=page.section %}
+</div>

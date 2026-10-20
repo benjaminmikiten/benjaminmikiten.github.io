@@ -3,18 +3,24 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
+  <script>
+    try { var t = localStorage.getItem('theme'); if (t) document.documentElement.dataset.theme = t; } catch (e) {}
+  </script>
   {%- seo -%}
+  <meta name="theme-color" content="#1e1e2e" media="(prefers-color-scheme: dark)">
+  <meta name="theme-color" content="#eff1f5" media="(prefers-color-scheme: light)">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fira+Mono:wght@400;500;700&display=swap">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500&family=IBM+Plex+Sans:ital,wght@0,400;0,500;0,600;0,700;1,400;1,600&display=swap">
   <link rel="stylesheet" href="{{ '/assets/theme.css' | relative_url }}">
   {%- feed_meta -%}
 </head>
-<body data-section="{{ page.section | default: 'root' }}">
+<body>
   {%- include header.html -%}
-  <main class="wrap main">
+  <main class="wrap">
     {{ content }}
   </main>
   {%- include footer.html -%}
+  <script src="{{ '/assets/site.js' | relative_url }}" defer></script>
 </body>
 </html>

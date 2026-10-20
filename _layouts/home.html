@@ -1,18 +1,23 @@
 ---
 layout: default
 ---
-<section class="hero">
-  <p class="eyebrow">Notes, guides &amp; essays</p>
-  <h1 class="hero-title">I write things down.</h1>
+<section class="home-intro">
+  <h1 class="gradient">{{ site.title }}</h1>
+  {%- if page.intro %}
+  <div class="lede">{{ page.intro | markdownify }}</div>
+  {%- endif %}
 </section>
 
-<ul class="cards sections">
-  <li><a class="card" data-section="essays" href="{{ '/essays/' | relative_url }}"><h2>Essays</h2><p class="meta">Longer pieces on work and getting hired</p></a></li>
-  <li><a class="card" data-section="guides" href="{{ '/guides/' | relative_url }}"><h2>Guides</h2><p class="meta">Retro hardware, setup, and tools</p></a></li>
-  <li><a class="card" data-section="lists" href="{{ '/lists/' | relative_url }}"><h2>Lists</h2><p class="meta">Recommendations and comparisons</p></a></li>
-  <li><a class="card" data-section="books" href="{{ '/books/' | relative_url }}"><h2>Books</h2><p class="meta">What's on the shelf</p></a></li>
-</ul>
+<div class="index">
+  {%- for s in site.data.sections %}
+  {%- assign count = site.pages | where: "section", s.id | where_exp: "p", "p.layout != 'section'" | size %}
+  <section>
+    <h2 class="index-head"><a href="{{ '/' | append: s.id | append: '/' | relative_url }}">{{ s.id }}/</a><span class="count">{{ count }}</span></h2>
+    {% include page-list.html section=s.id %}
+  </section>
+  {%- endfor %}
+</div>
 
-<div class="prose intro">
+<div class="prose home-about">
   {{ content }}
 </div>

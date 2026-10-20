@@ -1,0 +1,6 @@
+{%- assign items = site.pages | where: "section", include.section | where_exp: "p", "p.layout != 'section'" | sort_natural: "title" -%}
+<ul class="page-list">
+  {%- for item in items %}
+  <li><a href="{{ item.url | relative_url }}">{{ item.title }}</a></li>
+  {%- endfor %}
+</ul>
