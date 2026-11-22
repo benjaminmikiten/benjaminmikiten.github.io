@@ -8,6 +8,10 @@ layout: default
   {%- endif %}
 </section>
 
+<div class="prose home-about">
+  {{ content }}
+</div>
+
 <div class="index">
   {%- for s in site.data.sections %}
   {%- assign count = site.pages | where: "section", s.id | where_exp: "p", "p.layout != 'section'" | size %}
@@ -16,8 +20,4 @@ layout: default
     {% include page-list.html section=s.id %}
   </section>
   {%- endfor %}
-</div>
-
-<div class="prose home-about">
-  {{ content }}
 </div>
