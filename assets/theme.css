@@ -102,7 +102,7 @@ a.tag:hover { color: var(--text); box-shadow: var(--glow); }
   margin: 0 0 .75rem; font-size: clamp(2.25rem, 6vw, 3.25rem); line-height: 1.1;
   font-weight: 700; letter-spacing: -0.025em;
 }
-.home-about { max-width: 44rem; margin: 1rem 0 4rem; padding-top: 2rem; border-top: 1px solid var(--surface0); }
+.home-about { max-width: 44rem; margin: 1rem 0 0; padding-top: 2rem; border-top: 1px solid var(--surface0); }
 
 /* ---------- Index lists ---------- */
 .index { max-width: 44rem; padding-bottom: 3rem; }
